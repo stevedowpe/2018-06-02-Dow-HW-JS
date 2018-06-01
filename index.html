@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>"Steve Dow's JavaScript Homework due 6/02/2018"</h1>
+  <h3>"I was able to mirror the class example to get the data populated in the matrix and the initial filtered search. See below."</h3>
+  <h3> "When I attempted Part 2 of the homework, I repeated the filter and function code similar to Part 1 (Date Time), but the html file would not run."</h3>
+  <h3> "I have commented out some of this code as '// --' for review. I am not sure why it did not work".</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="datetime" placeholder="DateTime">
+          <a id="search" class="btn btn-default">Search</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="state" placeholder="State">
+          <a id="search" class="btn btn-default">Search</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Date Time</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Duration Minutes</th>
+              <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
